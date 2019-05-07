@@ -12,7 +12,7 @@ html {
   text-align: center;
 }
 .tastebutton {
-  background-color: red;
+  background-color: gray;
   border: none;
   color: white;
   padding: 5% 5%;
@@ -31,7 +31,7 @@ html {
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
-  background-color: RoyalBlue;
+  background-color: #A9A9A9;
   border: none;
   color: white;
   padding: 5% 5%;

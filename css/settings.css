@@ -53,7 +53,7 @@ html {
   .sidenav a {font-size: 18px;}
 }
 .btn {
-  background-color: DodgerBlue;
+  background-color: #A9A9A9;
   border: none;
   color: white;
   font-size: 100%;
@@ -63,7 +63,7 @@ html {
   margin-left: 10%;
 }
 .btn1 {
-  background-color: DodgerBlue;
+  background-color: #A9A9A9;
   border: none;
   color: white;
   font-size: 25px;
@@ -75,7 +75,7 @@ html {
   color: white;
   font-size: 60px;
   font-weight: bolder;
-  background-color: red;
+  background-color: #404040;
   text-align: center;
   width: 80%;
   margin-left: 10%;

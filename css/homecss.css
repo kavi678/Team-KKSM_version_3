@@ -18,7 +18,7 @@ html {
   margin-top: 30%;
 }
 .search-container button {
- background: red;
+ background: gray;
  font-size: 150%;
  border: none;
  cursor: pointer;
@@ -47,7 +47,7 @@ html {
   height: auto;
 }
 .addr {
-  background-color: red;
+  background-color: gray;
   border: none;
   color: white;
   padding: 5% 5%;
@@ -103,7 +103,7 @@ html {
   .sidenav a {font-size: 18px;}
 }
 .btn {
-  background-color: DodgerBlue;
+  background-color: #A9A9A9;
   border: none;
   color: white;
   font-size: 100%;
@@ -113,7 +113,7 @@ html {
   margin-left: 10%;
 }
 .btn1 {
-  background-color: DodgerBlue;
+  background-color: #A9A9A9;
   border: none;
   color: white;
   font-size: 25px;
