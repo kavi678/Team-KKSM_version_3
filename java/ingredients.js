@@ -20,10 +20,10 @@ function myFunction() {
 var Day1Array = [];
 // following init fuction will always run when the windw is open. it will take all the items from the local storage and give value to post on a page
 function init() {
-  if (localStorage.Add1) {
-      Day1Array = JSON.parse(localStorage.Add1);
+  if (localStorage.Add2) {
+      Day1Array = JSON.parse(localStorage.Add2);
       for (var i = 0; i < Day1Array.length; i++) {
-          prepareTableCell(Day1Array[i].exer1, Day1Array[i].mus1, Day1Array[i].se, Day1Array[i].re, Day1Array[i].ser)
+          prepareTableCell(Day1Array[i].exer1, Day1Array[i].mus1, Day1Array[i].se, Day1Array[i].re)
 
 
 
@@ -39,17 +39,16 @@ function add1() {
     var mu1 = document.getElementById("muscle1").value;
     var s1 = document.getElementById("set1").value;
     var r1 = document.getElementById("rep1").value;
-    var se = document.getElementById("excersise1").value;
-    var stuObj = {exer1: ex1, mus1: mu1, se: s1, re: r1, ser: se };
+    var stuObj = {exer1: ex1, mus1: mu1, se: s1, re: r1};
     Day1Array.push(stuObj);
-    localStorage.Add1 = JSON.stringify(Day1Array);
+    localStorage.Add2 = JSON.stringify(Day1Array);
 
-    prepareTableCell(ex1, mu1, s1, r1, se);
+    prepareTableCell(ex1, mu1, s1, r1);
 
 
 }
 // following function will make a table and show all the value from the local storage in the rows.
-function prepareTableCell(ex1, mu1, s1, r1, se) {
+function prepareTableCell(ex1, mu1, s1, r1) {
     var table = document.getElementById("output1");
     var row = table.insertRow();
     var ex1Cell = row.insertCell(0);
@@ -61,7 +60,6 @@ function prepareTableCell(ex1, mu1, s1, r1, se) {
     //firstNameCell.colSpan = 2;
     s1Cell.innerHTML = s1;
     r1Cell.innerHTML = r1;
-    document.getElementById("searchBox").value = se;
 
 
 
@@ -70,7 +68,7 @@ function prepareTableCell(ex1, mu1, s1, r1, se) {
 // dell function will delete that key from the local storage. Day1Array will be removes from it. when you add again any item it will create a new Day1Array list.
 function del1() {
 
-    localStorage.removeItem("Add1");
+    localStorage.removeItem("Add2");
 
 }
 function goBack() {
