@@ -121,7 +121,7 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 
-function myFunction() {
+function yFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
