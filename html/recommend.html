@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/recommend.css">
     <title>Recommended Recipes</title>
@@ -10,18 +12,15 @@
 
   <body class="body1">
     <h1 class="body1_h1"></h1>
-  <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><button class="btn1"><i class="fa fa-close"></i></button></a>
-  <a href="../html/home.html">Home</a>
-  <a href="../html/ingredients.html">Ingredients</a>
-  <a href="../html/recipes.html">My Recipes</a>
-  <a href="../html/settings.html">Settings</a>
-  <a href="../index.html">Login Page</a>
-</div>
-
-<div id="lnav">
-  <span style="font-size:30px;cursor:pointer" ><button class="btn" onclick="openNav()"><i class="fa fa-bars"></i></button></span>
-</div><br><br><br><br>
+  <div class="main">
+    <div class="na">
+      <a href="../html/home.html"><i class='fas fa-search' style='font-size:36px'></i></a>
+      <a href="../html/ingredients.html" class="active"><i class='fas fa-bread-slice' style='font-size:36px; color: red'></i></a>
+      <a href="../html/recipes.html"><i class='fas fa-hamburger' style='font-size:36px; color:yellow'></i></a>
+      <a href="../index.html"><i class='fas fa-home' style='font-size:36px'></i></a>
+      <a href="../html/wifi.html"><i class='fas fa-wifi' style='font-size:36px'></i></a>
+      <a href="../html/settings.html"><i class='fas fa-cog' style='font-size:36px'></i></a>
+    </div>
 <h1 class="h1h1"> Recommended Recipes</h1>
 <input type="text" id="myInput" onkeyup="yFunction()" value = "chicken thigh fillet onion chilli fish sauce " placeholder="Search for Recipes.." title="Type in a name">
 <br><br>
@@ -32,7 +31,7 @@
 
 <div id ="z1" class="y1">
 <B class="l1"> chicken thigh fillet onion chilli fish sauce coriander</B>
-<div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm1()">X</button><button>Show 3D Image</button><br><br></div>
+<div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm1()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
 <ul><li> Prep time: 30 minutes </li>
 <li> Cook time: 10 minutes </li>
 <li> Serves: 4</li>
@@ -81,7 +80,7 @@
 
 <div id ="z2" class="y1">
 <B class="l1"> olive oil loin medallions couscous beans orange parsley leaves</B>
-<div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm2()">X</button><button>Show 3D Image</button><br><br></div>
+<div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm2()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
 
 <ul>
 <li> Prep time: 20 minutes</li>
@@ -127,7 +126,7 @@
 
 <div id ="z3" class="y1">
 <B class="l1"> chicken thigh fillet onion chilli fish sauce coriander</B>
-<div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm3()">X</button><button>Show 3D Image</button><br><br></div>
+<div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm3()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
 <ul>
 
 <li> Prep time: 10 minutes</li>
@@ -171,7 +170,7 @@
 
 <div id ="z4" class="y1">
   <B class="l1"> breadcrumbs parsley olive oil cloves spaghetti basil leaves</B>
-  <div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm4()">X</button><button>Show 3D Image</button><br><br></div>
+  <div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm4()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
 <ul>
 
 <li> Prep time: 10 minutes</li>
@@ -218,7 +217,7 @@
 
   <div id ="z5" class="y1">
     <B class="l1"> shallots chicken minced noodles soy sauce</B>
-    <div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm5()">X</button><button>Show 3D Image</button><br><br></div>
+    <div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm5()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
     <ul>
 
 <li> Prep time: 5 minutes</li>
@@ -266,7 +265,7 @@
 
     <div id ="z6" class="y1">
       <B class="l1"> chicken thigh fillet onion chilli fish sauce coriander</B>
-      <div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm6()">X</button><button>Show 3D Image</button><br><br></div>
+      <div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm6()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
       <ul>
 
 <li> Prep time: 20 minutes</li>
@@ -316,7 +315,7 @@
 
       <div id ="z7" class="y1">
         <B class="l1"> beef tacos coriander tomatoes lettuce cheese</B>
-        <div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm7()">X</button><button>Show 3D Image</button><br><br></div>
+        <div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm7()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
         <ul>
 
 <li> Prep time: 15 minutes</li>
@@ -361,7 +360,7 @@
 
         <div id ="z8" class="y1">
           <B class="l1"> chilli powder oregano cloves olive oil chicken stock kidney beans</B>
-          <div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm8()">X</button><button>Show 3D Image</button><br><br></div>
+          <div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm8()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
           <ul>
 
 <li> Prep time: 15 minutes</li>
@@ -408,7 +407,7 @@
 
           <div id ="z9" class="y1">
             <B class="l1"> chicken thigh fillets onion cloves mustard chicken stock apricot peas broccolini</B>
-            <div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm9()">X</button><button>Show 3D Image</button><br><br></div>
+            <div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm9()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
             <ul>
 
 <li> Prep time: 20 minutes</li>
@@ -454,7 +453,7 @@
 
             <div id ="z10" class="y1">
               <B class="l1"> pork sausage onion curry powder chicken stock peas cram</B>
-              <div class=bbc><button><img src="like1.png"></button><button><img src="like2.png"></button><button type="button" class="ad1" onclick="closeForm10()">X</button><button>Show 3D Image</button><br><br></div>
+              <div class=bbc><button><i class='far fa-thumbs-down' style='font-size:36px'></i></button><button><i class='far fa-thumbs-up' style='font-size:36px'></i></button><button type="button" class="ad1" onclick="closeForm10()">X</button><button style="padding: 5px">Show 3D Image</button><br><br></div>
               <ul>
 
 <li> Prep time: 30 minutes</li>
@@ -503,7 +502,7 @@
 
 
 
-<br>
+<br></div>
 
 
 

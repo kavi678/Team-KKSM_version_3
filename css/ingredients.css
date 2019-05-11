@@ -141,6 +141,19 @@ html {
 .rbutton {
   border-radius: 20%;
   border: none;
+  text-decoration: none;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+}
+.rrbutton {
+  border-radius: 20%;
+  border: none;
+  text-decoration: none;
+
+  
 }
 .rimg{
   border-radius: 20%;
@@ -296,4 +309,32 @@ select{
   width:95%;
   height:auto;
   background-color: #333;
+}
+.na {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.na a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 10px;
+
+}
+
+.na a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.na a.active {
+  background-color: gray;
+  color: white;
 }

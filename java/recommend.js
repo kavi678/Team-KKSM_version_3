@@ -104,3 +104,6 @@ function openForm10() {
 function closeForm10() {
   document.getElementById("z10").style.display = "none";
 }
+function goBack() {
+    window.history.back();
+}

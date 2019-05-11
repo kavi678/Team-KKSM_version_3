@@ -4,7 +4,7 @@ html {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-color: white;
+  background-color: #333;
   height: 100%;
   width: auto;
 }
@@ -196,4 +196,34 @@ img:hover{
     text-align: center;
 
   }
+}
+.na {
+
+  position: fixed;
+  margin-left: 10px;
+  width: 100%;
+  color: white;
+}
+
+.na a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 10px;
+
+}
+
+.na a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.na a.active {
+  background-color: gray;
+  color: white;
+}
+#lnav {
+  background-color: #333;
 }

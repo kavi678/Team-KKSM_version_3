@@ -86,3 +86,7 @@ const endpoint = 'https://api.edamam.com/search?q='+searchM+'&app_id=53c99899&ap
 
 //line that makes the code show up
 document.getElementById('search').addEventListener('click', searchRecipes);
+
+function goBack() {
+    window.history.back();
+}

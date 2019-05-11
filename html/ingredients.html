@@ -3,27 +3,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <link rel="stylesheet" href="../css/ingredients.css">
   <title>Ingredients List</title>
 </head>
 
 <body class="body1" onload="init()">
   <h1 class="body1_h1"></h1>
-<div id="mySidenav" class="sidenav">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><button class="btn1"><i class="fa fa-close"></i></button></a>
-<a href="../html/home.html">Home</a>
-<a href="../html/ingredients.html">Ingredients</a>
-<a href="../html/recipes.html">My Recipes</a>
-<a href="../html/settings.html">Settings</a>
-<a href="../index.html">Login Page</a>
-</div>
+  <div class="main">
+  <div class="na">
+    <a href="../html/home.html"><i class='fas fa-search' style='font-size:36px'></i></a>
+    <a href="../html/ingredients.html" class="active"><i class='fas fa-bread-slice' style='font-size:36px; color: red'></i></a>
+    <a href="../html/recipes.html"><i class='fas fa-hamburger' style='font-size:36px; color:yellow'></i></a>
+    <a href="../index.html"><i class='fas fa-home' style='font-size:36px'></i></a>
+    <a href="../html/wifi.html"><i class='fas fa-wifi' style='font-size:36px'></i></a>
+    <a href="../html/settings.html"><i class='fas fa-cog' style='font-size:36px'></i></a>
+  </div>
 
-<div id="lnav">
-<span style="font-size:30px;cursor:pointer" ><button class="btn" onclick="openNav()"><i class="fa fa-bars"></i></button></span>
-</div><br><br><br><br>
 
 <h1 class="h1h1">Ingredients List</h1>
+<button class="adding" type="button" name="button" onclick="openForm()">Add Ingredients</button>
+
+<br>
+
+<br>
+<a href="filter.html"><button class="rbutton">Recommend Recipes</button></a></div>
+<br><br>
 
 
       <table id="output1" class="out1">
@@ -106,12 +113,7 @@
           <button type="button" class="ad1" onclick="closeForm()">Close</button>
           <br>
       </div><br><br>
-        <button class="adding" type="button" name="button" onclick="openForm()">Add Ingredients</button>
-
-  <br>
-
-  <br><br>
-  <button class="rbutton" ><a href="filter.html"><img class="rimg" src="../images/rbutton.png" alt="hbutton"></a></button>
+        <br><br><br>
 
 
 

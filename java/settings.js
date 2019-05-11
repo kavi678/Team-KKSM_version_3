@@ -29,3 +29,6 @@ function openForm2() {
 function closeForm2() {
   document.getElementById("cc12").style.display = "none";
 }
+function goBack() {
+    window.history.back();
+}

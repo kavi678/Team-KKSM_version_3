@@ -137,3 +137,6 @@ function yFunction() {
         }
     }
 }
+function goBack() {
+    window.history.back();
+}

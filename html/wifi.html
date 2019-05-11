@@ -7,13 +7,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../css/settings.css">
-  <title>Settings</title>
+  <title>Connections</title>
 </head>
 
 <body class="body1">
   <h1 class="body1_h1"></h1>
 
-<div class= "main">
+<div class="main">
   <div class="na">
     <a href="../html/home.html"><i class='fas fa-search' style='font-size:36px'></i></a>
     <a href="../html/ingredients.html"><i class='fas fa-bread-slice' style='font-size:36px; color: red'></i></a>
@@ -22,15 +22,25 @@
     <a href="../html/wifi.html" class="active"><i class='fas fa-wifi' style='font-size:36px'></i></a>
     <a href="../html/settings.html"><i class='fas fa-cog' style='font-size:36px'></i></a>
   </div>
-  <h1 class="h1h1">Recipt Scanner</h1>
-  <button onClick="goBack()"><i class='fas fa-reply-all' style='font-size:36px'></i></button><br><br>
-<div style="width:80%; height:450px; margin:auto; border:1px solid grey;">
+<div class="content">
 
-</div>
-<div style="width:40%; margin: auto;">
-    <br/>
-    <button style="width:40%; height: 60px;"><i class="fa fa-camera" style="font-size:20px;"></i></button>
-</div><br><br></div>
+            <h1 class="h1h1">connections</h1>
+            <h1> <B><U>Sensor </U></B><h2>
+            <p class= "pd"> Connect the sensor to get information regarding ingredients from your kitchen. </p>
+            <button class = "bv" onclick="openForm1()" > Connect </button><br>
+            <div id="cc11"> <p> You are now connected to sensors </p>
+            <button type="button" class="ad1" onclick="closeForm1()">OK</button></div>
+            <br>
+            <h1><B><U> 3D Projector </U></B><h2>
+            <p class= "pd"> Connect the 3D projector to see 3D image. </p>
+            <button class = "bv" onclick="openForm2()" > Connect </button><br>
+            <div id="cc12"> <p> You are now connected to 3D Projector </p>
+            <button type="button" class="ad1" onclick="closeForm2()">OK</button></div><br>
+            <a href="receipt_scanner.html" style="text-decoration:none;"><div class="setcon">
+              <p>Receipt Scanner</p>
+            </div></a><br>
+
+</div></div>
 
 
 
