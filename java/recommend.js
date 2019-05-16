@@ -107,3 +107,10 @@ function closeForm10() {
 function goBack() {
     window.history.back();
 }
+function oForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function cForm() {
+  document.getElementById("myForm").style.display = "none";
+}
